@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Noto+Serif+JP&family=Ma+Yen+Xing&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-handwriting-en {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-handwriting-ja {
+  font-family: 'Noto Serif JP', serif;
+}
+
+.font-handwriting-zh {
+  font-family: 'Ma Yen Xing', cursive;
+}
